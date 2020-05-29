@@ -1,5 +1,15 @@
 import requests
 from bs4 import BeautifulSoup
+banner = '''
+ |  __ \                           / ____|         | |    
+ | |__) | __ _____  ___   _ ______| |  __ _ __ __ _| |__  
+ |  ___/ '__/ _ \ \/ / | | |______| | |_ | '__/ _` | '_ \ 
+ | |   | | | (_) >  <| |_| |      | |__| | | | (_| | |_) |
+ |_|   |_|  \___/_/\_\\__, |       \_____|_|  \__,_|_.__/ 
+                       __/ |                 coded by: @foxeditor          
+                      |___/                  channel: @montelisa
+ '''
+print(banner)
 f = open('prox.txt','w')
 def get_site(site):
     r = requests.get(site)

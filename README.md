@@ -6,6 +6,10 @@ pip install lxml
 
 pip install requests
 
+git clone https://github.com/montelisa/get-proxy
+
+cd get-proxy
+
 python prox.py
 
 proxy will be in prox.txt

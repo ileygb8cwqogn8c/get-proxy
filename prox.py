@@ -8,7 +8,7 @@ banner = '''
  |_|   |_|  \___/_/\_\\__, |       \_____|_|  \__,_|_.__/ 
                        __/ |                 coded by: @foxeditor          
                       |___/                  channel: @montelisa
- '''
+'''
 print(banner)
 f = open('prox.txt','w')
 def get_site(site):

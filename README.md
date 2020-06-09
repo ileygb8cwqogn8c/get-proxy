@@ -2,8 +2,6 @@ USAGE:
 
 pip install bs4
 
-pip install lxml
-
 pip install requests
 
 git clone https://github.com/montelisa/get-proxy

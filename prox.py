@@ -15,7 +15,7 @@ def get_site(site):
     r = requests.get(site)
     return r.text
 def datas(html):
-    soup = BeautifulSoup(html, 'lxml')
+    soup = BeautifulSoup(html, 'html')
     line = soup.find('table', id='theProxyList').find('tbody').find_all('tr')
 
     for tr in line:
